@@ -1,0 +1,787 @@
+{
+  "product-reviews": {
+    "HeroBannerTwoProps": {
+      "main-heading": "Flaunt The Love You Get, Because You Deserve It",
+      "sub-heading": "Shoppers trust product reviews and personal recommendations. With Reacho, you can easily gather, manage, and flaunt authentic reviews in your emails, SMS, and push notifications.",
+      "dashboard-image-url": {
+        "src": "/assets/images/product-over-view.png",
+        "className": "max-w-full h-auto !mx-auto !rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
+      }
+    },
+    "HomeFeatureGridProps": {
+      "heading": "Reacho Makes It Easy To Collect & Celebrate Your Reviews",
+      "description": "Use genuine customer feedback in your campaigns and across your website to proudly show how much customers love your products.",
+      "category-1" : {
+        "name": "Automated Collection",
+        "heading": "Collect & share reviews rasily",
+        "description": "Reacho automatically collects customer feedback after every purchase and even lets you set up workflows to request reviews via email and SMS.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+
+        ],
+        "prospects-signup-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-product-reviews/collect-and-share-review-easily.png",
+            "className": "marketing-feature-signup"
+          }
+        ]
+      },
+      "category-2": {
+        "name": "Smart Segmentation",
+        "heading": "Turn feedback into action",
+        "description": "Segment customers based on their reviews so you can focus your marketing on what matters most to them.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-product-reviews/turn-feedback-into-action.png",
+            "className": "marketing-feature-automation"
+          }
+        ]
+      },
+      "category-3": {
+        "name": "Featured Reviews",
+        "heading": "Put a spotlight on top ratings",
+        "description": "Shine a spotlight on your top reviews, whether on your store or in emails. Build trust and inspire more customers to choose your products.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-product-reviews/google-review.png",
+            "className": "mah-onmichannel-automation1 m-auto"
+          }
+        ]
+      },
+      "category-4": {
+        "name": "Rich Snippets",
+        "heading": "Stand out on Google Search",
+        "description": "Increase your online store’s visibility by featuring product ratings in Google search results. Attract more traffic and improve your SEO effortlessly.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-product-reviews/put-spotlight-on-top-ratings.png",
+            "className": "mah-prospects-frame"
+          }
+        ]
+      }
+    },
+    "ContentSectionStickyProps" : {
+      "content-item": [
+        {
+          "index": 0,
+          "label": "Creative automation",
+          "title": "REWARDING LOYALTY, MADE EASY",
+          "description": "Show your customers some love and keep the feedback rolling in with review rewards. Automatically send personalized discounts or special offers to customers who leave reviews. Say goodbye to manual follow-ups and hello to a hassle-free way to boost your review count and customer satisfaction.",
+          "buttonText": "Discover Creative Studio",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/reviews/rewarding-loyalty.png"
+        },
+        {
+          "index": 1,
+          "label": "Review Analytics",
+          "title": "INSIGHTS AT YOUR FINGERTIPS",
+          "description": "Unlock the power of your customer reviews with Reacho’s comprehensive review analytics. Track, analyze, and understand customer feedback like never before. Our intuitive dashboards provide actionable insights that help you improve your products, services, and overall customer experience.",
+          "buttonText": "Learn how to enhance DPAs",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/reviews/insights-at-your-finger.png"
+        },
+        {
+          "index": 2,
+          "label": "Review Syndication",
+          "title": "Multi-Channel Review Display",
+          "description": "With Reacho’s multi-channel review display, you can show off your best reviews wherever your customers are, be it your store, emails, or social media. Boost credibility and drive conversions by letting your satisfied customers do the talking.",
+          "buttonText": "Explore the reacho platform",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/reviews/multichannel-review.png"
+        }
+      ]
+    }
+  },
+   "email-marketing": {
+    "HeroBannerTwoProps": {
+      "main-heading": "Ignite eCommerce Growth with Email Intelligence",
+      "sub-heading": "Delight customers at every turn with Reacho’s smart email marketing features. Make your store irresistible.",
+      "dashboard-image-url": {
+        "src": "/assets/images/dashboard.png",
+        "className": "max-w-full h-auto !mx-auto !rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
+      }
+    },
+    "HomeFeatureGridProps": {
+      "heading": "Boring Out, Brilliant In ",
+      "description": "Create stunning, action-driven email campaigns that turn one-time customers into repeat buyers.",
+      "category-1" : {
+        "name": "Email Automation",
+        "heading": "Engage better with automated emails",
+        "description": "Automatically send the right message at the right time, every time.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+
+        ],
+        "prospects-signup-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-email-marketing/engage-better-with-automated-emails.png",
+            "className": "marketing-feature-signup"
+          }
+        ]
+      },
+      "category-2": {
+        "name": "Email Segmentation",
+        "heading": "Targeted messages, better results",
+        "description": "Hit the mark with targeted emails that reach your ideal customers.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-email-marketing/targeted-messages-better-results.png",
+            "className": "marketing-feature-automation"
+          }
+        ]
+      },
+      "category-3": {
+        "name": "Advanced Personalization ",
+        "heading": "More impact with tailored emails",
+        "description": "Deliver emails with personal insights that your customers will love.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-email-marketing/more-impact-with-tailored-emails.png",
+            "className": "mah-onmichannel-automation1 m-auto"
+          }
+        ]
+      },
+      "category-4": {
+        "name": "Analytics & Tracking",
+        "heading": "Track what works",
+        "description": "Maximize your email performance with insights that drive opens and clicks.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-email-marketing/track-what-works.png",
+            "className": "mah-prospects-frame"
+          }
+        ]
+      }
+    },
+    "ContentSectionStickyProps" : {
+      "content-item": [
+        {
+          "index": 0,
+          "label": "Creative automation",
+          "title": "EMAIL AUTOMATION SIMPLIFIED",
+          "description": "Take the grind out of your email campaigns. Reduce the time spent on sending, segmenting, and personalizing emails. Let our automation handle the heavy lifting for you. Free up your time to focus on the big ideas while your emails hit every inbox with just the right touch.",
+          "buttonText": "Discover Creative Studio",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/email-automation.png"
+        },
+        {
+          "index": 1,
+          "label": "Review Analytics",
+          "title": "EMAILS WITH PERSONAL TOUCH",
+          "description": "Segment your customers with precision and craft messages that resonate on a personal level. Say goodbye to one-size-fits-all campaigns. Target the right people at the right time with personalized emails based on their shopping habits. Watch your engagement soar as every email speaks directly to your customer’s preferences.",
+          "buttonText": "Learn how to enhance DPAs",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/personalize.png"
+        },
+        {
+          "index": 2,
+          "label": "Review Syndication",
+          "title": "INSIGHTS THAT DRIVE ACTION",
+          "description": "Dive deep into your email campaign performance with detailed analytics. Understand what’s working and what’s not with real-time data at your fingertips. Optimize every campaign by tracking open rates, click-throughs, and conversions, and make sure your strategy is always on point.",
+          "buttonText": "Explore the reacho platform",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/insights-that-drive-action.png"
+        }
+      ]
+    }
+  },
+     "sms-marketing": {
+    "HeroBannerTwoProps": {
+      "main-heading": "Turn Every SMS into a Conversion Catalyst",
+      "sub-heading": "It’s not 2015. Reacho gives you SMS, email, web push notifications, and support software – all in one place, so you never have to juggle tools again.",
+      "dashboard-image-url": {
+        "src": "/assets/images/sms-marketing.png",
+        "className": "max-w-full h-auto !mx-auto !rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
+      }
+    },
+    "HomeFeatureGridProps": {
+      "heading": "No More Directionless SMS Campaigns",
+      "description": "eCommerce customers prefer SMS promotions. Let Reacho help you segment and target your SMS campaigns in a few easy steps.",
+      "category-1" : {
+        "name": "SMS Automation",
+        "heading": "Instant connections with SMS workflows",
+        "description": "Rely on automation to deliver real-time, personalized SMS updates and reminders. ",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+
+        ],
+        "prospects-signup-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-email-marketing/engage-better-with-automated-emails.png",
+            "className": "marketing-feature-signup"
+          }
+        ]
+      },
+      "category-2": {
+        "name": "Targeted Personalization",
+        "heading": "Hook shoppers with custom SMS",
+        "description": "Easily segment your customers and send them personalized SMS so that they keep coming back for more. ",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-email-marketing/targeted-messages-better-results.png",
+            "className": "marketing-feature-automation"
+          }
+        ]
+      },
+      "category-3": {
+        "name": "Two-Way Communication ",
+        "heading": "Real-time support for happier customers ",
+        "description": "Quickly send and receive messages, answer customer queries in real-time, and assign chats to your team to keep your customers satisfied.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "https://www.mailmodo.com/_next/image/?url=https%3A%2F%2Fres.cloudinary.com%2Fmailmodo%2Fimage%2Fupload%2Ff_auto%2Cq_100%2Fv1709151065%2Fstrapi%2FFrame_1110166605_2_561b26f6ea.png&w=750&q=75",
+            "className": "mah-onmichannel-automation1 m-auto"
+          }
+        ]
+      },
+      "category-4": {
+        "name": "Maximize ROI",
+        "heading": "Drive growth with cost-fefective SMS campaigns",
+        "description": "Leverage SMS marketing to boost sales without breaking the bank. Enjoy great returns on every message sent.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "https://www.zohowebstatic.com/sites/zweb/images/marketingautomation/home/mah-identify-stats.webp",
+            "className": "mah-prospects-frame"
+          }
+        ]
+      }
+    },
+    "ContentSectionStickyProps" : {
+      "content-item": [
+        {
+          "index": 0,
+          "label": "Omnichannel Marketing",
+          "title": "TIME-SAVING SIMPLIFIED",
+          "description": "Say goodbye to juggling multiple platforms. Reacho unifies email, SMS, push notifications, and more so that you can take care of all your eCommerce marketing in one place. Focus on strategy while Reacho takes care of the execution.",
+          "buttonText": "Discover Creative Studio",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/sms-marketing/time-saving-simplified.png"
+        },
+        {
+          "index": 1,
+          "label": "Automated Engagement",
+          "title": "BIG RESULTS AT A SMALL PRICE",
+          "description": "Win over your customers effortlessly with Reacho’s automated SMS and email campaigns. From welcome series to re-engagement campaigns, our ready-to-use templates and prebuilt automation do all the heavy lifting – all for less than you’d expect. ",
+          "buttonText": "Learn how to enhance DPAs",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/sms-marketing/big-result-at-small.png"
+        },
+        {
+          "index": 2,
+          "label": "Review Syndication",
+          "title": "HIT THE RIGHT CHORD  WITH PERSONALIZATION",
+          "description": "With Reacho, you can easily tune your messages to suit each customer perfectly. Create segments that sync with your customers' actions in real-time to create campaigns that always strike the right note.",
+          "buttonText": "Explore the reacho platform",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/sms-marketing/hit-the-right-chord.png"
+        }
+      ]
+    }
+  },
+    "help-desk": {
+    "HeroBannerTwoProps": {
+      "main-heading": "Streamline Your Support with Reacho Helpdesk",
+      "sub-heading": "Automate, Organize, and Deliver Exceptional Customer Service—for Free",
+      "dashboard-image-url": {
+        "src": "/assets/images/dashboard.png",
+        "className": "max-w-full h-auto !mx-auto !rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
+      }
+    },
+    "HomeFeatureGridProps": {
+      "heading": "Wow Your Customers With Reacho",
+      "description": "Reacho's Helpdesk is a powerful, yet completely free tool designed to simplify your customer support operations. Tailored for eCommerce brands that refuse to compromise on quality, our Helpdesk ensures you can provide top-notch support, for free.",
+      "category-1" : {
+        "name": "Help Simplified",
+        "heading": "Automate the mundane",
+        "description": "Reacho’s helpdesk isn’t just about answering questions; it’s about elevating your support. Use smart automation to clear the clutter, allowing your agents to focus on the conversations that truly matter.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+
+        ],
+        "prospects-signup-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-marketing-automation/turn-clicks-into.png",
+            "className": "marketing-feature-signup"
+          }
+        ]
+      },
+      "category-2": {
+        "name": "Help Everywhere",
+        "heading": "A helpdesk that follows you everywhere",
+        "description": "Whether your team is on Android, iOS, or the web, Reacho’s helpdesk ensures they’re always ready to assist. From the office to the coffee shop, support doesn’t stop.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-marketing-automation/automated-actionable.png",
+            "className": "marketing-feature-automation"
+          }
+        ]
+      },
+      "category-3": {
+        "name": "Delight Customers",
+        "heading": "Turn data into delight",
+        "description": "With Reacho’s reports and analytics, your agents know exactly who they are engaging with, what’s working, what’s not, and exactly what to do next. Anticipate needs, resolve issues before they escalate, and keep customers delighted every step of the way.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-marketing-automation/push-profit-with.png",
+            "className": "mah-onmichannel-automation1 m-auto"
+          }
+        ]
+      },
+      "category-4": {
+        "name": "One Step Ahead",
+        "heading": "More than just a helpdesk",
+        "description": "Reacho isn’t just a helpdesk; it’s the backbone of your customer experience. With seamless omnichannel marketing integration, it unifies every touchpoint, ensuring your support strategy is consistent, connected, and always one step ahead.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-marketing-automation/support-seamlessly.png",
+            "className": "mah-prospects-frame"
+          }
+        ]
+      }
+    },
+    "ContentSectionStickyProps" : {
+      "content-item": [
+        {
+          "index": 0,
+          "label": "Creative automation",
+          "title": "Unified Inbox",
+          "description": "Manage all customer communications from a single dashboard. Emails, chats, and social media messages are consolidated for easy access and efficient handling.",
+          "buttonText": "Discover Creative Studio",
+          "buttonLink": "#",
+          "imageSrc": "https://cdn.prod.website-files.com/635b7fcaa4466902de288cbc/6512a27a3df3c3541eb95717_hp%20asset%201%20final.webp"
+        },
+        {
+          "index": 1,
+          "label": "Review Analytics",
+          "title": "Support Automation",
+          "description": "Automate repetitive tasks with smart workflows. Use canned responses, automated ticket assignments, and tagging to streamline your support process and reduce response times.",
+          "buttonText": "Learn how to enhance DPAs",
+          "buttonLink": "#",
+          "imageSrc": "https://cdn.prod.website-files.com/635b7fcaa4466902de288cbc/6512a27bfb827a21aa7ca89f_hp%20asset%202%20final.webp"
+        },
+        {
+          "index": 2,
+          "label": "Review Syndication",
+          "title": "Customer Insights",
+          "description": "Access detailed customer profiles, including order history and previous interactions, directly within each ticket. Personalize your responses to build stronger customer relationships.",
+          "buttonText": "Explore the reacho platform",
+          "buttonLink": "#",
+          "imageSrc": "https://cdn.prod.website-files.com/635b7fcaa4466902de288cbc/6512a27a6716ea3ed010f2f2_hp%20asset%203%20final.webp"
+        }
+      ]
+    }
+  },
+    "live-chat": {
+    "HeroBannerTwoProps": {
+      "main-heading": "Engage Customers Instantly with Reacho Live Chat",
+      "sub-heading": "Connect in Real-Time and Enhance Your eCommerce Experience",
+      "dashboard-image-url": {
+        "src": "/assets/images/dashboard.png",
+        "className": "max-w-full h-auto !mx-auto !rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
+      }
+    },
+    "HomeFeatureGridProps": {
+      "heading": "Turn Conversations into Conversions",
+      "description": "With Reacho's Live Chat feature, you can interact with your website visitors the moment they need assistance. Provide real-time support that not only resolves queries quickly but also builds trust and encourages customers to complete their purchases.",
+      "category-1" : {
+        "name": "Automated Chat",
+        "heading": "Take the heat off your agents with chatbots",
+        "description": "Resolve most basic queries and conflicts with chatbots, and let your agents easily handle complex customer issues. ",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+
+        ],
+        "prospects-signup-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-email-marketing/engage-better-with-automated-emails.png",
+            "className": "marketing-feature-signup"
+          }
+        ]
+      },
+      "category-2": {
+        "name": "Chat Anywhere",
+        "heading": "Pack a punch – wherever you go",
+        "description": "Reacho works across Android, iOS, and the web, letting you engage with your customers wherever you go. With Reacho, your agents are right there when customers need them most. ",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-email-marketing/targeted-messages-better-results.png",
+            "className": "marketing-feature-automation"
+          }
+        ]
+      },
+      "category-3": {
+        "name": "Data First",
+        "heading": "Know your customers from every angle",
+        "description": "Guesswork out. Smart decisions in. With Reacho’s easy-to-use analytics, you no longer need an analyst; resolve customer issues backed by data and reports. ",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "https://www.mailmodo.com/_next/image/?url=https%3A%2F%2Fres.cloudinary.com%2Fmailmodo%2Fimage%2Fupload%2Ff_auto%2Cq_100%2Fv1709151065%2Fstrapi%2FFrame_1110166605_2_561b26f6ea.png&w=750&q=75",
+            "className": "mah-onmichannel-automation1 m-auto"
+          }
+        ]
+      },
+      "category-4": {
+        "name": "Grow Your Funnel",
+        "heading": "Capture, chat, convert",
+        "description": "Capture website visitors and immediately engage with them through automated chatbot messages.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "https://www.zohowebstatic.com/sites/zweb/images/marketingautomation/home/mah-identify-stats.webp",
+            "className": "mah-prospects-frame"
+          }
+        ]
+      }
+    },
+    "ContentSectionStickyProps" : {
+      "content-item": [
+        {
+          "index": 0,
+          "label": "Creative automation",
+          "title": "Customizable Chat Widget",
+          "description": "Align the chat interface with your brand identity. Customize colors, fonts, and messages to provide a cohesive and branded customer experience.",
+          "buttonText": "Discover Creative Studio",
+          "buttonLink": "#",
+          "imageSrc": "https://cdn.prod.website-files.com/635b7fcaa4466902de288cbc/6512a27a3df3c3541eb95717_hp%20asset%201%20final.webp"
+        },
+        {
+          "index": 1,
+          "label": "Review Analytics",
+          "title": "Automated Greetings and Responses",
+          "description": "Set up automated messages to welcome visitors or respond to common inquiries. This ensures prompt engagement even when your team is busy.",
+          "buttonText": "Learn how to enhance DPAs",
+          "buttonLink": "#",
+          "imageSrc": "https://cdn.prod.website-files.com/635b7fcaa4466902de288cbc/6512a27bfb827a21aa7ca89f_hp%20asset%202%20final.webp"
+        },
+        {
+          "index": 2,
+          "label": "Review Syndication",
+          "title": "Visitor Tracking and Insights",
+          "description": "Monitor visitor behavior in real-time. See which pages they're viewing and tailor your support to their interests, enhancing personalization.",
+          "buttonText": "Explore the reacho platform",
+          "buttonLink": "#",
+          "imageSrc": "https://cdn.prod.website-files.com/635b7fcaa4466902de288cbc/6512a27a6716ea3ed010f2f2_hp%20asset%203%20final.webp"
+        }
+      ]
+    }
+  },
+    "marketing-automation": {
+    "HeroBannerTwoProps": {
+      "main-heading": "Marketing Magic That Sparks Unstoppable Growth",
+      "sub-heading": "Let Reacho improve your targeting, personalization, and reporting of all marketing activities.",
+      "dashboard-image-url": {
+        "src": "/assets/images/mail-ui.png",
+        "className": "max-w-full h-auto !mx-auto !rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
+      }
+    },
+    "HomeFeatureGridProps": {
+      "heading": "Elevate Every Interaction, From Engagement to Support ",
+      "description": "Standard solutions fall short. Reacho offers seamless integration of email, SMS, reviews, and loyalty programs to maximize engagement and retention.",
+      "category-1" : {
+        "name": "Tailored Campaigns ",
+        "heading": "Turn clicks to customers with smart emails",
+        "description": "Automate personalized emails to engage your audience based on their behavior and preferences.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+
+        ],
+        "prospects-signup-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-marketing-automation/turn-clicks-into.png",
+            "className": "marketing-feature-signup"
+          }
+        ]
+      },
+      "category-2": {
+        "name": "Direct Engagement ",
+        "heading": "Automated, actionable SMS campaigns",
+        "description": "Send targeted SMS campaigns to directly engage customers, driving immediate actions and fostering meaningful relationships.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-marketing-automation/automated-actionable.png",
+            "className": "marketing-feature-automation"
+          }
+        ]
+      },
+      "category-3": {
+        "name": "Timely Alerts",
+        "heading": "Push profits with timely notifications",
+        "description": "Deliver personalized, relevant push notifications to keep your audience informed and engaged with your brand.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-marketing-automation/push-profit-with.png",
+            "className": "mah-onmichannel-automation1 m-auto"
+          }
+        ]
+      },
+      "category-4": {
+        "name": "Real-Time Assistance",
+        "heading": "Support that syncs seamlessly with your marketing",
+        "description": "Enhance customer support with integrated live chat and helpdesk tools. Provide instant assistance and manage support tickets efficiently.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-marketing-automation/support-seamlessly.png",
+            "className": "mah-prospects-frame"
+          }
+        ]
+      }
+    },
+    "ContentSectionStickyProps" : {
+      "content-item": [
+        {
+          "index": 0,
+          "label": "Streamline Your Campaigns ",
+          "title": "MARKETING AUTOMATION SIMPLIFIED",
+          "description": "Refine your marketing strategy with Reacho's automation, tapping into pre-built flows such as welcome sequences, cart recovery, and win-back campaigns. These customizable flows are crafted to respond automatically to key customer behaviors, ensuring you capture and engage at every opportunity. ",
+          "buttonText": "Discover Creative Studio",
+          "buttonLink": "#",
+          "imageSrc": "https://cdn.prod.website-files.com/635b7fcaa4466902de288cbc/6512a27a3df3c3541eb95717_hp%20asset%201%20final.webp"
+        },
+        {
+          "index": 1,
+          "label": "Effortless Customer Engagement",
+          "title": "SMS Marketing Solved",
+          "description": "Craft and segment messages with precision, using behavioral cues to tailor each interaction. Automate the essentials—scheduling, targeting, and follow-ups—to keep your communication consistent and compelling.",
+          "buttonText": "Learn how to enhance DPAs",
+          "buttonLink": "#",
+          "imageSrc": "https://cdn.prod.website-files.com/635b7fcaa4466902de288cbc/6512a27bfb827a21aa7ca89f_hp%20asset%202%20final.webp"
+        },
+        {
+          "index": 2,
+          "label": "Seamless Live Chat & Helpdesk",
+          "title": "Integrated Support Solutions",
+          "description": "Enhance customer support with integrated live chat and helpdesk tools. Harness the power of automated sorting and data insights to swiftly manage support tickets and personalize responses. Seamlessly integrate with popular eCommerce platforms like Shopify to update and streamline every customer interaction from one central location.",
+          "buttonText": "Explore the reacho platform",
+          "buttonLink": "#",
+          "imageSrc": "https://cdn.prod.website-files.com/635b7fcaa4466902de288cbc/6512a27a6716ea3ed010f2f2_hp%20asset%203%20final.webp"
+        }
+      ]
+    }
+  },
+    "push-notification": {
+    "HeroBannerTwoProps": {
+      "main-heading": "Win Back Attention with a Timely Tap",
+      "sub-heading": "Never miss a beat with your customers, even when they've left your site. Reacho's push feature helps you stay at the top of their mind with flash notifications, personalized product recommendations, timely shipping updates, and more! ",
+      "dashboard-image-url": {
+        "src": "/assets/images/push-notify.png",
+        "className": "max-w-full h-auto !mx-auto !rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
+      }
+    },
+    "HomeFeatureGridProps": {
+      "heading": "Lock in Loyalty with Every Ping",
+      "description": "Don't let your customers forget you after one purchase. Use Reacho’s push notifications to send timely and targeted messages so that they keep coming back for more.",
+      "category-1" : {
+        "name": "Rich Notifications",
+        "heading": "Grab attention with rich alerts",
+        "description": "Capture attention with lively, interactive messages that your customers can’t ignore. ",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+
+        ],
+        "prospects-signup-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-email-marketing/engage-better-with-automated-emails.png",
+            "className": "marketing-feature-signup"
+          }
+        ]
+      },
+      "category-2": {
+        "name": "Dynamic Product Ads",
+        "heading": "Personalized product recommendations",
+        "description": "Keep your customers engaged by sending them personalized product suggestions based on their shopping behavior. ",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "/assets/images/reacho-email-marketing/targeted-messages-better-results.png",
+            "className": "marketing-feature-automation"
+          }
+        ]
+      },
+      "category-3": {
+        "name": "Automated Push Notifications",
+        "heading": "Send timely alerts automatically",
+        "description": "Let Reacho handle the notifications for you. Your customers will be informed about price drop alerts, restocks, and special offers—all without you lifting a finger.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "https://www.mailmodo.com/_next/image/?url=https%3A%2F%2Fres.cloudinary.com%2Fmailmodo%2Fimage%2Fupload%2Ff_auto%2Cq_100%2Fv1709151065%2Fstrapi%2FFrame_1110166605_2_561b26f6ea.png&w=750&q=75",
+            "className": "mah-onmichannel-automation1 m-auto"
+          }
+        ]
+      },
+      "category-4": {
+        "name": "Guaranteed Delivery",
+        "heading": "Reach your customers confidently",
+        "description": "Get your notifications past spam filters and straight to every subscriber.",
+        "learn-more": {
+          "text": "Learn more",
+          "href": "#"
+        },
+        "prospects-frame-images": [
+          {
+            "index": 0,
+            "src": "https://www.zohowebstatic.com/sites/zweb/images/marketingautomation/home/mah-identify-stats.webp",
+            "className": "mah-prospects-frame"
+          }
+        ]
+      }
+    },
+    "ContentSectionStickyProps" : {
+      "content-item": [
+        {
+          "index": 0,
+          "label": "INSIGHTFUL ANALYTICS",
+          "title": "MARKETING MEETS DATA ",
+          "description": "Track how your customers engage with your push notifications, tweak your strategy in real time, and see the impact of every message you send. With Reacho’s easy-to-use tools, you’re not just guessing—you’re making smart, informed decisions that drive revenue. ",
+          "buttonText": "Discover Creative Studio",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/push-notification/market-meets.png"
+        },
+        {
+          "index": 1,
+          "label": "PRECISE TARGETING",
+          "title": "PERSONALIZE, ENGAGE, CAPTIVATE",
+          "description": "With Reacho’s smart segmentation, you can tailor your push notifications to specific customer segments based on their shopping behavior. Send personalized offers, product recommendations, and updates to create meaningful engagement for your customers. ",
+          "buttonText": "Learn how to enhance DPAs",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/push-notification/personalize-engage.png"
+        },
+        {
+          "index": 2,
+          "label": "Cross-Channel Integration",
+          "title": "OMNICHANNEL MARKETING, UNIFIED",
+          "description": "Easily sync your push notifications with your other channels like email, SMS, and social media. Keep your messaging consistent and give your customers a smooth, connected experience across every platform they use. ",
+          "buttonText": "Explore the reacho platform",
+          "buttonLink": "#",
+          "imageSrc": "/assets/images/sticky-images/push-notification/omni-channel-marketing.png"
+        }
+      ]
+    }
+  }
+
+}

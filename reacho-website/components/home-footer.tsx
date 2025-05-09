@@ -1,0 +1,273 @@
+"use client";
+import { useState } from "react";
+import {
+  ChevronDownIcon,
+  ChevronUpDownIcon,
+  ChevronUpIcon,
+} from "@heroicons/react/20/solid";
+import Link from "next/link";
+
+const navigation = {
+  channels: [
+    { name: "Helpdesk", href: "/helpdesk" },
+    { name: "Live Chat", href: "/livechat" },
+    { name: "Automation", href: "/marketing-automation" },
+    { name: "Knowledge base", href: "/knowledge-base" },
+  ],
+  integrations: [
+    { name: "Shopify", href: "/shopify-platform" },
+    { name: "Prestashop", href: "/prestashop-platform" },
+    { name: "WooCommerce", href: "/woocommerce-platform" },
+    { name: "BigCommerce", href: "/bigcommerce-platform" },
+    { name: "Wix", href: "/wix-platform" },
+    { name: "Ecwid", href: "/ecwid-platform" },
+    { name: "WhatsApp", href: "/whatsapp-platform" },
+    { name: "Shoplazza", href: "/shoplazza-platform" },
+  ],
+  alternatives: [
+    { name: "Gorgias ", href: "/gorgias-alternative" },
+    { name: "Zendesk ", href: "/zendesk-alternative" },
+    { name: "Shopify Inbox", href: "shopifyInbox-alternative" },
+  ],
+  legal: [
+    { name: "Contact Us", href: "/contact-us" },
+    { name: "Privacy", href: "/privacy" },
+    { name: "Terms", href: "/terms" },
+  ],
+  social: [
+    {
+      name: "Facebook",
+      href: "https://www.facebook.com/getreacho/",
+      icon: (props: any) => (
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+          <path
+            fillRule="evenodd"
+            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+            clipRule="evenodd"
+          />
+        </svg>
+      ),
+    },
+    {
+      name: "LinkedIn",
+      href: "https://www.linkedin.com/company/getreacho",
+      icon: (props: any) => (
+        <svg
+          fill="currentColor"
+          enableBackground="new 0 0 100 100"
+          viewBox="0 0 100 100"
+          xmlns="http://www.w3.org/2000/svg"
+          {...props}
+        >
+          <g id="_x31_0.Linkedin">
+            <path d="m90 90v-29.3c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3h-15.9v53.4h16.6v-26.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26h16.6z"></path>
+            <path d="m11.3 36.6h16.6v53.4h-16.6z"></path>
+            <path d="m19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z"></path>
+          </g>
+        </svg>
+      ),
+    },
+    {
+      name: "X",
+      href: "https://twitter.com/getreacho",
+      icon: (props: any) => (
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+          <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
+        </svg>
+      ),
+    },
+    {
+      name: "Instagram",
+      href: "https://www.instagram.com/getreacho",
+      icon: (props: any) => (
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+          <path
+            fillRule="evenodd"
+            d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+            clipRule="evenodd"
+          />
+        </svg>
+      ),
+    },
+    {
+      name: "YouTube",
+      href: "https://www.youtube.com/channel/UCS_XeAlJgaE0dvX1LitygmQ",
+      icon: (props: any) => (
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+          <path
+            fillRule="evenodd"
+            d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"
+            clipRule="evenodd"
+          />
+        </svg>
+      ),
+    },
+  ],
+};
+
+export default function HomeFooter() {
+  const [showAll, setShowAll] = useState(false);
+
+  const maxVisible = 4;
+  return (
+    <footer className="bg-gray-900 relative" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" className="sr-only">
+        Footer
+      </h2>
+
+      <div className="container pb-6 pt-10 sm:pt-20">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-8 z-[20] relative">
+          <div className="space-y-6 sm:space-y-8">
+            <img
+              className="h-8"
+              src="/assets/images/reacho-brand.svg"
+              alt="Company name"
+            />
+            <p className="text-sm leading-6 text-gray-300 lg:pr-16">
+              Making automated eCommerce customer support accessible to all.
+            </p>
+            <div className="flex space-x-6">
+              {navigation.social.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="text-gray-500 hover:text-gray-400 z-10"
+                >
+                  <span className="sr-only">{item.name}</span>
+                  <item.icon className="h-6 w-6" aria-hidden="true" />
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-4 gap-8 xl:col-span-2 xl:mt-0">
+            {/* <div className="md:grid md:grid-cols-2 md:gap-8"> */}
+            <div>
+              <h3 className="text-sm font-semibold leading-6 text-white">
+                Channels
+              </h3>
+              <ul role="list" className="mt-4 sm:mt-6 space-y-4">
+                {navigation.channels.map((item) => (
+                  <li key={item.name}>
+                    <Link
+                      href={item.href}
+                      className="text-sm leading-6 text-gray-300 hover:text-white"
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold leading-6 text-white">
+                Platforms
+              </h3>
+              {/* <ul role="list" className="mt-4 sm:mt-6 space-y-4">
+                  {navigation.integrations.map((item) => (
+                    <li key={item.name}>
+                      <a
+                        href={item.href}
+                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul> */}
+              <ul role="list" className="mt-4 sm:mt-6 space-y-4">
+                {navigation.integrations
+                  .slice(
+                    0,
+                    showAll ? navigation.integrations.length : maxVisible
+                  )
+                  .map((item) => (
+                    <li key={item.name}>
+                      <Link
+                        href={item.href}
+                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                      >
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
+              {navigation.integrations.length > maxVisible && (
+                <button
+                  onClick={() => setShowAll(!showAll)}
+                  className="mt-4 text-sm text-white"
+                >
+                  {showAll ? (
+                    <>
+                      <div className="flex items-center space-x-2 font-semibold">
+                        Show less <ChevronUpIcon className="w-5 h-5 ml-1" />
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="flex items-center space-x-2 font-semibold">
+                        Show more <ChevronDownIcon className="w-5 h-5 ml-1" />
+                      </div>
+                    </>
+                  )}
+                </button>
+              )}
+            </div>
+            {/* </div> */}
+            {/* <div className="md:grid md:grid-cols-2 md:gap-8"> */}
+            <div>
+              <h3 className="text-sm font-semibold leading-6 text-white">
+                Alternatives
+              </h3>
+              <ul role="list" className="mt-4 sm:mt-6 space-y-4">
+                {navigation.alternatives.map((item) => (
+                  <li key={item.name}>
+                    <Link
+                      href={item.href}
+                      className="text-sm leading-6 text-gray-300 hover:text-white"
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold leading-6 text-white">
+                Legal
+              </h3>
+              <ul role="list" className="mt-4 sm:mt-6 space-y-4">
+                {navigation.legal.map((item) => (
+                  <li key={item.name}>
+                    <Link
+                      href={item.href}
+                      className="text-sm leading-6 text-gray-300 hover:text-white"
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            {/* </div> */}
+          </div>
+        </div>
+        <div className="mt-10 border-t border-white/10 pt-6 sm:mt-16 lg:mt-20">
+          <p className="text-xs leading-5 text-gray-400">
+            &copy; Reacho {new Date().getFullYear()}. All rights reserved.
+          </p>
+        </div>
+      </div>
+
+      <img
+        src="/assets/images/illustration/ils_1.png"
+        alt="ils-1"
+        className="lazy-img illustration-one wow fadeInRight absolute right-0 bottom-0 z[-1] max-w-[22.35%]"
+      />
+      <img
+        src="/assets/images/illustration/ils_2.png"
+        alt="ils-2"
+        className="lazy-img illustration-two wow fadeInLeft absolute left-0 bottom-0 z[-1]  max-w-[20.53%]"
+      />
+    </footer>
+  );
+}

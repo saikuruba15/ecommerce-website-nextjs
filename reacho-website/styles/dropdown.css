@@ -1,0 +1,21 @@
+/* Dropdown hover styles */
+.nav-item-dropdown {
+  position: relative;
+}
+
+.nav-item-dropdown [data-headlessui-state="open"] {
+  color: var(--primary-color, #4f46e5);
+}
+
+/* Smooth transition for dropdown */
+.nav-item-dropdown [role="menu"] {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.nav-item-dropdown:hover [role="menu"],
+.nav-item-dropdown [data-headlessui-state="open"] + [role="menu"] {
+  opacity: 1;
+  transform: translateY(0);
+}
